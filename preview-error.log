@@ -1,0 +1,9 @@
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\DELL because it is outside the current Git repository (C:\Users\DELL\Desktop\CLIENTS).
+ To use this directory, set `turbopack.root` in your Next.js config.
+
+[browser] An empty string ("") was passed to the href attribute. To fix this, either do not render the element at all or pass null to href instead of an empty string. 
+    at Set.forEach (<anonymous>) (<anonymous>)
+[browser] An empty string ("") was passed to the href attribute. To fix this, either do not render the element at all or pass null to href instead of an empty string. 
+    at Set.forEach (<anonymous>) (<anonymous>)
+[browser] An empty string ("") was passed to the href attribute. To fix this, either do not render the element at all or pass null to href instead of an empty string. 
+    at Set.forEach (<anonymous>) (<anonymous>)
