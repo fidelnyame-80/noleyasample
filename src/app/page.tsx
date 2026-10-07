@@ -173,10 +173,10 @@ export default function Home() {
 
       gsap.fromTo(artwork, {
         autoAlpha: 0,
-        x: () => gsap.utils.random(-130, 130),
-        y: () => gsap.utils.random(-90, 90),
-        rotation: () => gsap.utils.random(-14, 14),
-        scale: 0.88,
+        x: 0,
+        y: 38,
+        rotation: 0,
+        scale: 0.97,
       }, {
         autoAlpha: 1,
         x: 0,
@@ -254,9 +254,7 @@ export default function Home() {
         <span className="below-kicker below-reveal font-[700] ">N O L E Y A &nbsp; / &nbsp; A F R I C A</span>
         <p className="below-headline font-[700] " ref={belowHeadlineRef}>Good things grow when we grow them together.</p>
         <div className="below-artwork" aria-hidden="true" ref={artworkRef}>
-          <svg
-          className="transform translate-x-[1px] "
-          viewBox="-1001.27 -286.847 1807 1883" role="presentation">
+          <svg viewBox="-1001.27 -286.847 1807 1883" role="presentation">
             <defs>
               <clipPath id="good-things-clip">
                 <path d={communityShapePath} />
@@ -265,7 +263,6 @@ export default function Home() {
             <g className="good-things-artwork">
               <path className="good-things-fallback" d={communityShapePath} />
               <image
-                className="transform -translate "
                 href="/images/good-things.webp"
                 x="-1001.27"
                 y="-286.847"
@@ -289,7 +286,7 @@ export default function Home() {
           </div>
           <div className="support-grid">
             <article className="support-card support-card-wide">
-              <img src="/images/good-things.webp" alt="Children spending time together in their community" />
+              <img src="/images/support.webp" alt="Noleya community support in action" />
               <div className="support-card-copy"><span>01 / EDUCATION</span><h3>Learning starts with access.</h3><p>School supplies, learning materials, and support for young people.</p></div>
             </article>
             <article className="support-card">
